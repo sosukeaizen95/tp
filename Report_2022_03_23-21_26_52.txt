@@ -1,0 +1,3044 @@
+************************************************************************
+ IP's REPORT (Total=5)
+ 
+ Date: 2022/03/23 21:26:52
+************************************************************************
+
+IP: 101.43.65.150
+Organization: Tencent Cloud Computing (Beijing) Co., Ltd
+Operating System: None
+Last Update: 2022-03-19T10:24:38.827891
+Internet Service Provider (ISP): Shenzhen Tencent Computer Systems Company Limited
+Autonomous System Number (ASN): AS45090
+Country: China
+City: Shenzhen
+Latitude: 22.54554
+Longitude: 114.0683
+Hostnames: []
+Domains: []
+Ports: [443, 22]
+Number of IoC (Indicators of Compromise): 15
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+PORTS DATA FOR IP: 101.43.65.150
+______________________________________________________________
+Data information about port 22 for ip:101.43.65.150
+Port: 22
+Banner: SSH-2.0-OpenSSH_7.4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCU+nbPbQuenLBaTtlbEaPV8mDVB3zrfQY+FGYhe2tq0NMy
+dxSJ8mq18K5zXtlebA7gYLna8ro2LHmeX5cM4DeoNfzE0b56yoS1DUiSBUn4OyIv8lkDzRfmerYY
+7qdYXuWFcoBfzcuoGhotP74OS4t057O+Xq2bScVtPl3PJ7TM38N5D3TEx09FKAZZJyFpmApRX+X2
+JfTj8vv5u7tUubrZ+p4elXWLMeE6Ksv0KYDQ7ZAgBOuZDh2D6Pr8pZWrgiNG6JK++K8Om0dn3K+a
+j3vXlm7YELoM2+96gCC+Lw0Sv7yPww8tagzJsRSLPnHEofeg9eCl8B3GU/ZDGCms2Aat
+Fingerprint: 20:87:31:f3:5c:99:86:97:4a:8a:b7:f6:e6:00:36:33
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group-exchange-sha1
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+	diffie-hellman-group1-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+
+
+Transport: tcp
+Timestamp: 2022-03-19T10:24:38.827891
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -1297074529
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 22 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 22 :
+        
+....................
+                    
+Cloud data about port 22 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 22 :
+crawler : a63b71ce4b8ab943fe83502b265dc615867966e1
+options : {}
+id : ee7bdd15-4e3a-4639-8733-9e1cc0b2a7d6
+module : ssh
+ptr : True
+....................
+                    
+Hostnames data about port 22 :
+....................
+                    
+Domains data about port 22 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 443 for ip:101.43.65.150
+Port: 443
+Banner: HTTP/1.1 404 Not Found
+Date: Fri, 18 Mar 2022 09:18:22 GMT
+Server: cloudflare
+Content-Type: text/html;charset=UTF-8
+Cache-Control: max-age=2
+Connection: close
+Content-Length: 0
+
+
+Cobalt Strike Beacon:
+  x86:
+    beacon_type: HTTPS
+    cfg_caution: 1
+    dns-beacon.strategy_fail_seconds: -1
+    dns-beacon.strategy_fail_x: -1
+    dns-beacon.strategy_rotate_seconds: -1
+    host_header: Host: wmsj.cn
+
+    http-get.client:
+      Accept: text/html,application/xhtml+xml,application/xml;
+      Host: getbootstrap.com
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      __cfduid=
+      Cookie
+    http-get.uri: doc.run,/dist/css/bootstrap.min.css
+    http-get.verb: GET
+    http-post.client:
+      Accept: text/html,application/xhtml+xml,application/xml;
+      Host: getbootstrap.com
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      serve
+    http-post.uri: /dist/js/bootstrap.bundle.min.js
+    http-post.verb: POST
+    jitter: 37
+    maxgetsize: 1403086
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\svchost.exe -k netsvcs
+    post-ex.spawnto_x86: %windir%\syswow64\svchost.exe -k netsvcs
+    process-inject.allocator: 1
+    process-inject.execute:
+      ntdll:RtlUserThreadStart
+      CreateThread
+      NtQueueApcThread
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.min_alloc: 16700
+    process-inject.startrwx: 64
+    process-inject.stub: 32cd41edf0810c5b5f498edf4731cc6d
+    process-inject.userwx: 32
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: e9ae865f5ce035176457188409f6020a
+    sleeptime: 10000
+    stage.cleanup: 1
+    useragent_header: Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+
+    uses_cookies: 1
+  x64:
+    beacon_type: HTTPS
+    cfg_caution: 1
+    dns-beacon.strategy_fail_seconds: -1
+    dns-beacon.strategy_fail_x: -1
+    dns-beacon.strategy_rotate_seconds: -1
+    host_header: Host: wmsj.cn
+
+    http-get.client:
+      Accept: text/html,application/xhtml+xml,application/xml;
+      Host: getbootstrap.com
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      __cfduid=
+      Cookie
+    http-get.uri: doc.run,/dist/css/bootstrap.min.css
+    http-get.verb: GET
+    http-post.client:
+      Accept: text/html,application/xhtml+xml,application/xml;
+      Host: getbootstrap.com
+      Accept-Encoding: gzip, deflate
+      Accept-Language: zh-CN,zh;q=0.9
+      serve
+    http-post.uri: /dist/js/bootstrap.bundle.min.js
+    http-post.verb: POST
+    jitter: 37
+    maxgetsize: 1403086
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\svchost.exe -k netsvcs
+    post-ex.spawnto_x86: %windir%\syswow64\svchost.exe -k netsvcs
+    process-inject.allocator: 1
+    process-inject.execute:
+      ntdll:RtlUserThreadStart
+      CreateThread
+      NtQueueApcThread
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.min_alloc: 16700
+    process-inject.startrwx: 64
+    process-inject.stub: 32cd41edf0810c5b5f498edf4731cc6d
+    process-inject.userwx: 32
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: e9ae865f5ce035176457188409f6020a
+    sleeptime: 10000
+    stage.cleanup: 1
+    useragent_header: Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/531.2+
+    uses_cookies: 1
+
+Transport: tcp
+Timestamp: 2022-03-18T09:18:22.502055
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -10169398
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 443 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 443 :
+        
+....................
+                    
+Cloud data about port 443 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 443 :
+crawler : 78039f81a0245caa8ab71c98182f0eff0ce52aab
+options : {}
+id : 91538075-f8b2-4f42-8f17-278e22966711
+module : https
+ptr : True
+....................
+                    
+Hostnames data about port 443 :
+....................
+                    
+Domains data about port 443 :
+....................
+______________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_IoC details_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                    
+ Pulses data for ip:101.43.65.150
+Id:62156c16bb6d83b9f71a10ca
+Name:Cobalt Strike Servers | 02/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 02/14/2022.
+Modified:2022-03-24T00:00:00.271000
+Created:2022-02-22T23:04:54.597000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6239248a9389387b663ad40e
+Name:Cobalt Strike Servers | 03/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 03/14/2022.
+Modified:2022-03-22T01:21:14.678000
+Created:2022-03-22T01:21:14.678000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:620aae4093b42cc22e7b30c3
+Name:Cobalt Strike Servers | 02/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 02/07/2022.
+Modified:2022-03-16T00:02:55.894000
+Created:2022-02-14T19:32:16.069000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:622f2ea3f368ed4462ce8e20
+Name:Cobalt Strike Servers | 03/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 03/07/2022.
+Modified:2022-03-14T12:01:39.061000
+Created:2022-03-14T12:01:39.061000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6225f3fdbf2c7a22ab0c4a5b
+Name:Cobalt Strike Servers | 02/28/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 02/28/2022.
+Modified:2022-03-07T12:01:01.966000
+Created:2022-03-07T12:01:01.966000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:621cb99c30f2fb5ab9e23099
+Name:Cobalt Strike Servers | 02/21/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 02/21/2022.
+Modified:2022-02-28T12:01:32.405000
+Created:2022-02-28T12:01:32.405000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61eec7259098efcb214ceab0
+Name:Cobalt Strike Servers | 01/17/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 01/17/2022.
+Modified:2022-02-23T00:00:33.803000
+Created:2022-01-24T15:35:01.362000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61e71d74c6b967dcaa8dc8e2
+Name:Cobalt Strike Servers | 01/10/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 01/10/2022.
+Modified:2022-02-17T00:02:58.585000
+Created:2022-01-18T20:05:07.999000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61c0c0327127ce8cd954331c
+Name:Cobalt Strike Servers | 12/13/2021
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 12/13/2021.
+Modified:2022-01-19T00:01:13.696000
+Created:2021-12-20T17:41:06.137000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61b75d66f98734e3ff094116
+Name:Log4J Exploit
+Description:https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/Log4j_IOC_List.csv
+Modified:2022-01-13T00:05:19.097000
+Created:2021-12-13T14:49:10.022000
+Malware Families
+	********************
+Id:61b977ed333571d2250dbec4
+Name:Log4j Scanning Hosts
+Description:
+Modified:2022-01-13T00:05:19.097000
+Created:2021-12-15T05:06:53.766000
+Malware Families
+	********************
+Id:61b78173fca3c7c193355660
+Name:Cobalt Strike Servers | 12/06/2021
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 12/06/2021.
+Modified:2022-01-12T00:03:33.882000
+Created:2021-12-13T17:22:59.293000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61ae8a78598d23ac703ceaef
+Name:Cobalt Strike Servers | 11/29/2021
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 11/29/2021.
+Modified:2022-01-05T00:01:50.334000
+Created:2021-12-06T22:11:04.544000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:61a53d218f3374bd02fc9ccd
+Name:Cobalt Strike Servers | 11/22/2021
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 11/22/2021.
+Modified:2021-12-29T00:02:38.730000
+Created:2021-11-29T20:50:41.254000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:619c0ede653031a22aaccbfb
+Name:Cobalt Strike Servers | 11/15/2021
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These servers were scanned the week of 11/15/2021.
+Modified:2021-12-22T00:05:47.759000
+Created:2021-11-22T21:42:54.528000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+....................
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************************
+
+IP: 101.43.32.173
+Organization: Tencent Cloud Computing (Beijing) Co., Ltd
+Operating System: None
+Last Update: 2022-03-18T10:29:50.520077
+Internet Service Provider (ISP): Shenzhen Tencent Computer Systems Company Limited
+Autonomous System Number (ASN): AS45090
+Country: China
+City: Shenzhen
+Latitude: 22.54554
+Longitude: 114.0683
+Hostnames: []
+Domains: []
+Ports: [123, 443]
+Number of IoC (Indicators of Compromise): 50
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+PORTS DATA FOR IP: 101.43.32.173
+______________________________________________________________
+Data information about port 123 for ip:101.43.32.173
+Port: 123
+Banner: NTP
+protocolversion: 3
+stratum: 3
+leap: 0
+precision: -24
+rootdelay: 0.00215148925781
+rootdisp: 0.0475006103516
+refid: 2851995650
+reftime: 3855367756.56
+poll: 3
+
+
+Transport: udp
+Timestamp: 2022-03-04T07:30:48.552451
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -560171236
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 123 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 123 :
+root_delay : 0.0021514892578125
+clock_offset : 0.011287450790405273
+precision : -24
+reftime : 1646378956.5622492
+refid : 2851995650
+delay : 0.2322859764099121
+leap : 0
+version : 3
+root_dispersion : 0.0475006103515625
+stratum : 3
+poll : 3
+monlist : None
+....................
+                    
+Cloud data about port 123 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 123 :
+crawler : 3f1279c6853212fb475ce5da28a7fdac617a5bd4
+options : {}
+id : 5c2d2910-7ceb-4f89-84d4-82875c71dd3d
+module : ntp
+ptr : True
+....................
+                    
+Hostnames data about port 123 :
+....................
+                    
+Domains data about port 123 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 443 for ip:101.43.32.173
+Port: 443
+Banner:  
+
+Transport: tcp
+Timestamp: 2022-03-18T10:29:50.520077
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -2007783223
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 443 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 443 :
+        
+....................
+                    
+Cloud data about port 443 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 443 :
+crawler : b66375e7e2e0284f236322e0c9c29ac77b5cbc7e
+options : {}
+id : c014ab15-66e8-47af-9b52-6e38f227831d
+module : https
+ptr : True
+....................
+                    
+Hostnames data about port 443 :
+....................
+                    
+Domains data about port 443 :
+....................
+______________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_IoC details_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                    
+ Pulses data for ip:101.43.32.173
+Id:62156c14cbce4e056805b5d0
+Name:Cobalt Strike Servers & C2 | 02/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/14/2022.
+Modified:2022-03-24T00:00:00.271000
+Created:2022-02-22T23:04:52.761000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6213eb8a6cc3ff025ade633b
+Name:CobaltStrikeC2s_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:10.728000
+Malware Families
+	********************
+Id:6213eb8d904fae30fffdaaff
+Name:CobaltStrikeStage2_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:13.511000
+Malware Families
+	********************
+Id:6212995d344156e04b8baa36
+Name:CobaltStrikeC2s_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.185000
+Malware Families
+	********************
+Id:6212995d833107c122d4971d
+Name:CobaltStrikeStage2_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.942000
+Malware Families
+	********************
+Id:623924872e07de7becef073f
+Name:Cobalt Strike Servers & C2 | 03/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 03/14/2022.
+Modified:2022-03-22T01:21:11.462000
+Created:2022-03-22T01:21:11.462000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:621147e5805cba95331c3196
+Name:CobaltStrikeC2s_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:25.627000
+Malware Families
+	********************
+Id:621147e65968618de107da1e
+Name:CobaltStrikeStage2_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:26.520000
+Malware Families
+	********************
+Id:620ff6cb382bb7fc2ea0f0de
+Name:CobaltStrikeC2s_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:07.457000
+Malware Families
+	********************
+Id:620ff6ccc4f82526647cfa4f
+Name:CobaltStrikeStage2_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:08.171000
+Malware Families
+	********************
+Id:620ea4efa5c4a06885f9c027
+Name:CobaltStrikeC2s_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:35.715000
+Malware Families
+	********************
+Id:620ea4f26ba371ff7f64ecb7
+Name:CobaltStrikeStage2_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:37.092000
+Malware Families
+	********************
+Id:620d5435bb828bd4f51875c2
+Name:CobaltStrikeC2s_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:53.631000
+Malware Families
+	********************
+Id:620d5436dc6df248eb1ffc01
+Name:CobaltStrikeStage2_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:54.286000
+Malware Families
+	********************
+Id:6233901bcfb12fa77c03f788
+Name:CobaltStrikeStage2_1647546342
+Description:
+Modified:2022-03-17T19:46:35.444000
+Created:2022-03-17T19:46:35.444000
+Malware Families
+	********************
+Id:6233901a3ceeeeb5a825f55f
+Name:CobaltStrikeC2s_1647546342
+Description:
+Modified:2022-03-17T19:46:34.768000
+Created:2022-03-17T19:46:34.768000
+Malware Families
+	********************
+Id:620c01aa358ed5adbdeafea1
+Name:CobaltStrikeC2s_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:26.696000
+Malware Families
+	********************
+Id:620c01ab311416441dd9ffbd
+Name:CobaltStrikeStage2_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:27.217000
+Malware Families
+	********************
+Id:62323eaca065f32eab89e690
+Name:CobaltStrikeStage2_1647459957
+Description:
+Modified:2022-03-16T19:46:52.107000
+Created:2022-03-16T19:46:52.107000
+Malware Families
+	********************
+Id:62323eaafb49693e7ffee08d
+Name:CobaltStrikeC2s_1647459957
+Description:
+Modified:2022-03-16T19:46:50.605000
+Created:2022-03-16T19:46:50.605000
+Malware Families
+	********************
+Id:620aaf918f9ff1dc6f5ac997
+Name:CobaltStrikeC2s_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:53.500000
+Malware Families
+	********************
+Id:620aaf92c873ef75b2fb240c
+Name:CobaltStrikeStage2_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:54.217000
+Malware Families
+	********************
+Id:620aae3e69768a8fb97170f0
+Name:Cobalt Strike Servers & C2 | 02/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/07/2022.
+Modified:2022-03-16T00:02:55.894000
+Created:2022-02-14T19:32:14.279000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6230eca07b8f57b1a478e8ec
+Name:CobaltStrikeStage2_1647373419
+Description:
+Modified:2022-03-15T19:44:32.633000
+Created:2022-03-15T19:44:32.633000
+Malware Families
+	********************
+Id:6230eca09dbee9f6db990d53
+Name:CobaltStrikeC2s_1647373419
+Description:
+Modified:2022-03-15T19:44:32.127000
+Created:2022-03-15T19:44:32.127000
+Malware Families
+	********************
+Id:62095e68a8b0d10d09df6e67
+Name:CobaltStrikeC2s_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:20.566000
+Malware Families
+	********************
+Id:62095e69a2392434a061e17d
+Name:CobaltStrikeStage2_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:21.325000
+Malware Families
+	********************
+Id:622f9be5bf0453d863eec4a9
+Name:CobaltStrikeStage2_1647287216
+Description:
+Modified:2022-03-14T19:47:49.581000
+Created:2022-03-14T19:47:49.581000
+Malware Families
+	********************
+Id:622f9be4d75671f03b44360c
+Name:CobaltStrikeC2s_1647287216
+Description:
+Modified:2022-03-14T19:47:48.902000
+Created:2022-03-14T19:47:48.902000
+Malware Families
+	********************
+Id:62080cf6c06a4ac3ba0d8880
+Name:CobaltStrikeC2s_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:34.256000
+Malware Families
+	********************
+Id:62080cf7cb85fb1035952045
+Name:CobaltStrikeStage2_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:35.027000
+Malware Families
+	********************
+Id:622e4a06c8f88e8c3d0a8df0
+Name:CobaltStrikeStage2_1647200720
+Description:
+Modified:2022-03-13T19:46:14.386000
+Created:2022-03-13T19:46:14.386000
+Malware Families
+	********************
+Id:622e4a055c8c342be1cc345e
+Name:CobaltStrikeC2s_1647200720
+Description:
+Modified:2022-03-13T19:46:13.651000
+Created:2022-03-13T19:46:13.651000
+Malware Families
+	********************
+Id:6206ba9d07e5270a06cb9d25
+Name:CobaltStrikeC2s_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:57.804000
+Malware Families
+	********************
+Id:6206ba9fdb76ec59a467f11b
+Name:CobaltStrikeStage2_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:59.145000
+Malware Families
+	********************
+Id:622cf800f78185596084b645
+Name:CobaltStrikeStage2_1647114187
+Description:
+Modified:2022-03-12T19:44:00.812000
+Created:2022-03-12T19:44:00.812000
+Malware Families
+	********************
+Id:622cf800e5c4d7f748ff6d28
+Name:CobaltStrikeC2s_1647114187
+Description:
+Modified:2022-03-12T19:44:00.044000
+Created:2022-03-12T19:44:00.044000
+Malware Families
+	********************
+Id:6205695fa9faafc26e4518f5
+Name:CobaltStrikeC2s_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:03.552000
+Malware Families
+	********************
+Id:6205696003841882d9fb5947
+Name:CobaltStrikeStage2_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:04.091000
+Malware Families
+	********************
+Id:622ba6ad61b7c3804210921e
+Name:CobaltStrikeStage2_1647027831
+Description:
+Modified:2022-03-11T19:44:45.057000
+Created:2022-03-11T19:44:45.057000
+Malware Families
+	********************
+Id:622ba6ac70aec19998ebbe78
+Name:CobaltStrikeC2s_1647027831
+Description:
+Modified:2022-03-11T19:44:44.402000
+Created:2022-03-11T19:44:44.402000
+Malware Families
+	********************
+Id:6204180d96146aeff4c9da4f
+Name:CobaltStrikeC2s_1644435406
+Description:
+Modified:2022-03-11T19:02:11.863000
+Created:2022-02-09T19:37:49.811000
+Malware Families
+	********************
+Id:62041818d8659dbc957c063e
+Name:CobaltStrikeStage2_1644435406
+Description:
+Modified:2022-03-11T19:02:11.863000
+Created:2022-02-09T19:38:00.916000
+Malware Families
+	********************
+Id:622a54ec77546f3e11c14d78
+Name:CobaltStrikeStage2_1646941367
+Description:
+Modified:2022-03-10T19:43:40.468000
+Created:2022-03-10T19:43:40.468000
+Malware Families
+	********************
+Id:622a54ebb9476a0933302aa7
+Name:CobaltStrikeC2s_1646941367
+Description:
+Modified:2022-03-10T19:43:39.789000
+Created:2022-03-10T19:43:39.789000
+Malware Families
+	********************
+Id:6202c5f257de3cb655bbc541
+Name:CobaltStrikeC2s_1644348860
+Description:
+Modified:2022-03-10T19:04:00.856000
+Created:2022-02-08T19:35:14.085000
+Malware Families
+	********************
+Id:6202c5f285fce34806c2dfa9
+Name:CobaltStrikeStage2_1644348860
+Description:
+Modified:2022-03-10T19:04:00.856000
+Created:2022-02-08T19:35:14.676000
+Malware Families
+	********************
+Id:6202c399df947c80952c0cf0
+Name:Cobalt Strike Servers & C2 | 01/31/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 01/31/2022.
+Modified:2022-03-10T00:05:18.309000
+Created:2022-02-08T19:25:13.653000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:622903f6415f9450f9375181
+Name:CobaltStrikeStage2_1646855104
+Description:
+Modified:2022-03-09T19:45:58.169000
+Created:2022-03-09T19:45:58.169000
+Malware Families
+	********************
+Id:622903f500d89d81d0611443
+Name:CobaltStrikeC2s_1646855104
+Description:
+Modified:2022-03-09T19:45:57.317000
+Created:2022-03-09T19:45:57.317000
+Malware Families
+	********************
+....................
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************************
+
+IP: 78.128.113.14
+Organization: Lir.bg EOOD
+Operating System: None
+Last Update: 2022-03-23T12:51:59.750724
+Internet Service Provider (ISP): Balkan Internet Exchange Ltd
+Autonomous System Number (ASN): AS59900
+Country: Bulgaria
+City: Sofia
+Latitude: 42.69751
+Longitude: 23.32415
+Hostnames: ['ip-113-14.4vendeta.com']
+Domains: ['4vendeta.com']
+Ports: [50050, 443, 22]
+Number of IoC (Indicators of Compromise): 50
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+PORTS DATA FOR IP: 78.128.113.14
+______________________________________________________________
+Data information about port 22 for ip:78.128.113.14
+Port: 22
+Banner: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDhuXpXOSNyQwSUm+fP8cz1D/7rQ623vkLui8/OIDDCENR1
+6Qfpq7hj2hhsbphZkWusiXDMTTxoZpcP0PDGSorj/b3EiLEVjsQR3/zegK9QKlFnqbkOLdXCxj5W
+BJgJ7qPwbEnXd5iDWEFy80vSPhZk1xjLCaO85PPh1dFbL59P7RhckFhN16zzY+9o9PJygiw9iKc9
+2VXiufHE5UcLzCybKs8G3/ONDu76Ltc2ckeqy/wPYew8K7pU5PfsgZWye0Py/AVEJ6XizJu95ZHW
+DmfsyNR/PKle8V5bYL18O2DMQCd3jEpKEw26s+2Ml9EO0pxF+hgmpIiqjAPylNEZf1g7
+Fingerprint: c8:da:4b:da:f3:07:8c:7a:60:47:d7:08:36:03:bd:82
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+
+
+Transport: tcp
+Timestamp: 2022-03-13T20:35:53.500328
+Operating System: Ubuntu
+Autonomous System Number (ASN): AS209160
+HASH: 1209522289
+Internet Service Provider(ISP): Miti 2000 EOOD
+
+....................
+                    
+Location data about port 22 :
+city : Sofia
+region_code : 22
+area_code : None
+longitude : 23.32415
+latitude : 42.69751
+country_code : BG
+country_name : Bulgaria
+....................
+                    
+NTP data about port 22 :
+        
+....................
+                    
+Cloud data about port 22 :
+        
+....................
+                    
+Shodan data about port 22 :
+crawler : de861e38ad9739a151ba9b1499d28fd87f646fd3
+options : {}
+id : e3936d16-cd78-4605-9efc-4814186a061d
+module : ssh
+ptr : True
+....................
+                    
+Hostnames data about port 22 :
+ip-113-14.4vendeta.com
+....................
+                    
+Domains data about port 22 :
+4vendeta.com
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 443 for ip:78.128.113.14
+Port: 443
+Banner: HTTP/1.1 404 Not Found
+Date: Mon, 21 Mar 2022 15:31:24 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Cobalt Strike Beacon:
+  x86:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: 78.128.113.14,/dot.gif
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: cd89fa488ffa5c795876d04f95b3733c
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: f61884abc8f4ba7a0caa288b326a70ee
+    sleeptime: 60000
+    useragent_header: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727)
+    uses_cookies: 1
+    watermark: 305419896
+  x64:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: 78.128.113.14,/ga.js
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: cd89fa488ffa5c795876d04f95b3733c
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: f61884abc8f4ba7a0caa288b326a70ee
+    sleeptime: 60000
+    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; MALC)
+    uses_cookies: 1
+    watermark: 305419896
+
+Transport: tcp
+Timestamp: 2022-03-21T15:31:24.633764
+Operating System: None
+Autonomous System Number (ASN): AS59900
+HASH: -1672800813
+Internet Service Provider(ISP): Balkan Internet Exchange Ltd
+
+....................
+                    
+Location data about port 443 :
+city : Sofia
+region_code : 22
+area_code : None
+longitude : 23.32415
+latitude : 42.69751
+country_code : BG
+country_name : Bulgaria
+....................
+                    
+NTP data about port 443 :
+        
+....................
+                    
+Cloud data about port 443 :
+        
+....................
+                    
+Shodan data about port 443 :
+crawler : cdd92e2d835a37d2798fa6c7105171f4d214012f
+options : {}
+id : 6452fe99-33c4-4008-920f-57f62ba6c552
+module : https
+ptr : True
+....................
+                    
+Hostnames data about port 443 :
+ip-113-14.4vendeta.com
+....................
+                    
+Domains data about port 443 :
+4vendeta.com
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 50050 for ip:78.128.113.14
+Port: 50050
+Banner:  
+
+Transport: tcp
+Timestamp: 2022-03-23T12:51:59.750724
+Operating System: None
+Autonomous System Number (ASN): AS59900
+HASH: -2007783223
+Internet Service Provider(ISP): Balkan Internet Exchange Ltd
+
+....................
+                    
+Location data about port 50050 :
+city : Sofia
+region_code : 22
+area_code : None
+longitude : 23.32415
+latitude : 42.69751
+country_code : BG
+country_name : Bulgaria
+....................
+                    
+NTP data about port 50050 :
+        
+....................
+                    
+Cloud data about port 50050 :
+        
+....................
+                    
+Shodan data about port 50050 :
+crawler : 49217c0cdcbcebaf23c2979ae16d4eba64180b1f
+options : {}
+id : 828ba807-fdd5-4efc-a192-7503077ef00e
+module : http-simple-new
+ptr : True
+....................
+                    
+Hostnames data about port 50050 :
+ip-113-14.4vendeta.com
+....................
+                    
+Domains data about port 50050 :
+4vendeta.com
+....................
+______________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_IoC details_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                    
+ Pulses data for ip:78.128.113.14
+Id:5f928dbcad67e6227e78938c
+Name:Feed from AbuseIP
+Description:botnet C&Cs downloaded from AbuseIP.ch by Enrico Pasqualotto
+Modified:2022-03-24T02:01:09.083000
+Created:2020-10-23T08:01:00.005000
+Malware Families
+	********************
+Id:62156c14cbce4e056805b5d0
+Name:Cobalt Strike Servers & C2 | 02/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/14/2022.
+Modified:2022-03-24T00:00:00.271000
+Created:2022-02-22T23:04:52.761000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6213eb8a6cc3ff025ade633b
+Name:CobaltStrikeC2s_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:10.728000
+Malware Families
+	********************
+Id:6213eb8d904fae30fffdaaff
+Name:CobaltStrikeStage2_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:13.511000
+Malware Families
+	********************
+Id:6212995d344156e04b8baa36
+Name:CobaltStrikeC2s_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.185000
+Malware Families
+	********************
+Id:6212995d833107c122d4971d
+Name:CobaltStrikeStage2_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.942000
+Malware Families
+	********************
+Id:623924872e07de7becef073f
+Name:Cobalt Strike Servers & C2 | 03/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 03/14/2022.
+Modified:2022-03-22T01:21:11.462000
+Created:2022-03-22T01:21:11.462000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6238d676e659b080b96130d5
+Name:CobaltStrikeStage2_1647892033
+Description:
+Modified:2022-03-21T19:48:06.564000
+Created:2022-03-21T19:48:06.564000
+Malware Families
+	********************
+Id:6238d675f1b2a6cf9e762063
+Name:CobaltStrikeC2s_1647892033
+Description:
+Modified:2022-03-21T19:48:05.990000
+Created:2022-03-21T19:48:05.990000
+Malware Families
+	********************
+Id:621147e5805cba95331c3196
+Name:CobaltStrikeC2s_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:25.627000
+Malware Families
+	********************
+Id:621147e65968618de107da1e
+Name:CobaltStrikeStage2_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:26.520000
+Malware Families
+	********************
+Id:620ff6cb382bb7fc2ea0f0de
+Name:CobaltStrikeC2s_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:07.457000
+Malware Families
+	********************
+Id:620ff6ccc4f82526647cfa4f
+Name:CobaltStrikeStage2_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:08.171000
+Malware Families
+	********************
+Id:623632ec2b90dd2e92af0b71
+Name:CobaltStrikeStage2_1647719095
+Description:
+Modified:2022-03-19T19:45:48.559000
+Created:2022-03-19T19:45:48.559000
+Malware Families
+	********************
+Id:623632eb4881e462430833a1
+Name:CobaltStrikeC2s_1647719095
+Description:
+Modified:2022-03-19T19:45:47.806000
+Created:2022-03-19T19:45:47.806000
+Malware Families
+	********************
+Id:620ea4efa5c4a06885f9c027
+Name:CobaltStrikeC2s_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:35.715000
+Malware Families
+	********************
+Id:620ea4f26ba371ff7f64ecb7
+Name:CobaltStrikeStage2_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:37.092000
+Malware Families
+	********************
+Id:6234e1b5b5460daf49a55d0f
+Name:CobaltStrikeStage2_1647632767
+Description:
+Modified:2022-03-18T19:47:01.380000
+Created:2022-03-18T19:47:01.380000
+Malware Families
+	********************
+Id:6234e1b47b9f6731dc948b63
+Name:CobaltStrikeC2s_1647632767
+Description:
+Modified:2022-03-18T19:47:00.414000
+Created:2022-03-18T19:47:00.414000
+Malware Families
+	********************
+Id:620d5435bb828bd4f51875c2
+Name:CobaltStrikeC2s_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:53.631000
+Malware Families
+	********************
+Id:620d5436dc6df248eb1ffc01
+Name:CobaltStrikeStage2_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:54.286000
+Malware Families
+	********************
+Id:6233901bcfb12fa77c03f788
+Name:CobaltStrikeStage2_1647546342
+Description:
+Modified:2022-03-17T19:46:35.444000
+Created:2022-03-17T19:46:35.444000
+Malware Families
+	********************
+Id:6233901a3ceeeeb5a825f55f
+Name:CobaltStrikeC2s_1647546342
+Description:
+Modified:2022-03-17T19:46:34.768000
+Created:2022-03-17T19:46:34.768000
+Malware Families
+	********************
+Id:620c01aa358ed5adbdeafea1
+Name:CobaltStrikeC2s_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:26.696000
+Malware Families
+	********************
+Id:620c01ab311416441dd9ffbd
+Name:CobaltStrikeStage2_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:27.217000
+Malware Families
+	********************
+Id:62323eaca065f32eab89e690
+Name:CobaltStrikeStage2_1647459957
+Description:
+Modified:2022-03-16T19:46:52.107000
+Created:2022-03-16T19:46:52.107000
+Malware Families
+	********************
+Id:62323eaafb49693e7ffee08d
+Name:CobaltStrikeC2s_1647459957
+Description:
+Modified:2022-03-16T19:46:50.605000
+Created:2022-03-16T19:46:50.605000
+Malware Families
+	********************
+Id:620aaf918f9ff1dc6f5ac997
+Name:CobaltStrikeC2s_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:53.500000
+Malware Families
+	********************
+Id:620aaf92c873ef75b2fb240c
+Name:CobaltStrikeStage2_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:54.217000
+Malware Families
+	********************
+Id:620aae3e69768a8fb97170f0
+Name:Cobalt Strike Servers & C2 | 02/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/07/2022.
+Modified:2022-03-16T00:02:55.894000
+Created:2022-02-14T19:32:14.279000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6230eca07b8f57b1a478e8ec
+Name:CobaltStrikeStage2_1647373419
+Description:
+Modified:2022-03-15T19:44:32.633000
+Created:2022-03-15T19:44:32.633000
+Malware Families
+	********************
+Id:6230eca09dbee9f6db990d53
+Name:CobaltStrikeC2s_1647373419
+Description:
+Modified:2022-03-15T19:44:32.127000
+Created:2022-03-15T19:44:32.127000
+Malware Families
+	********************
+Id:62095e68a8b0d10d09df6e67
+Name:CobaltStrikeC2s_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:20.566000
+Malware Families
+	********************
+Id:62095e69a2392434a061e17d
+Name:CobaltStrikeStage2_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:21.325000
+Malware Families
+	********************
+Id:622f9be5bf0453d863eec4a9
+Name:CobaltStrikeStage2_1647287216
+Description:
+Modified:2022-03-14T19:47:49.581000
+Created:2022-03-14T19:47:49.581000
+Malware Families
+	********************
+Id:622f9be4d75671f03b44360c
+Name:CobaltStrikeC2s_1647287216
+Description:
+Modified:2022-03-14T19:47:48.902000
+Created:2022-03-14T19:47:48.902000
+Malware Families
+	********************
+Id:62080cf6c06a4ac3ba0d8880
+Name:CobaltStrikeC2s_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:34.256000
+Malware Families
+	********************
+Id:62080cf7cb85fb1035952045
+Name:CobaltStrikeStage2_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:35.027000
+Malware Families
+	********************
+Id:622e4a06c8f88e8c3d0a8df0
+Name:CobaltStrikeStage2_1647200720
+Description:
+Modified:2022-03-13T19:46:14.386000
+Created:2022-03-13T19:46:14.386000
+Malware Families
+	********************
+Id:622e4a055c8c342be1cc345e
+Name:CobaltStrikeC2s_1647200720
+Description:
+Modified:2022-03-13T19:46:13.651000
+Created:2022-03-13T19:46:13.651000
+Malware Families
+	********************
+Id:6206ba9d07e5270a06cb9d25
+Name:CobaltStrikeC2s_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:57.804000
+Malware Families
+	********************
+Id:6206ba9fdb76ec59a467f11b
+Name:CobaltStrikeStage2_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:59.145000
+Malware Families
+	********************
+Id:622cf800f78185596084b645
+Name:CobaltStrikeStage2_1647114187
+Description:
+Modified:2022-03-12T19:44:00.812000
+Created:2022-03-12T19:44:00.812000
+Malware Families
+	********************
+Id:622cf800e5c4d7f748ff6d28
+Name:CobaltStrikeC2s_1647114187
+Description:
+Modified:2022-03-12T19:44:00.044000
+Created:2022-03-12T19:44:00.044000
+Malware Families
+	********************
+Id:6205695fa9faafc26e4518f5
+Name:CobaltStrikeC2s_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:03.552000
+Malware Families
+	********************
+Id:6205696003841882d9fb5947
+Name:CobaltStrikeStage2_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:04.091000
+Malware Families
+	********************
+Id:622ba6ad61b7c3804210921e
+Name:CobaltStrikeStage2_1647027831
+Description:
+Modified:2022-03-11T19:44:45.057000
+Created:2022-03-11T19:44:45.057000
+Malware Families
+	********************
+Id:622ba6ac70aec19998ebbe78
+Name:CobaltStrikeC2s_1647027831
+Description:
+Modified:2022-03-11T19:44:44.402000
+Created:2022-03-11T19:44:44.402000
+Malware Families
+	********************
+Id:6204180d96146aeff4c9da4f
+Name:CobaltStrikeC2s_1644435406
+Description:
+Modified:2022-03-11T19:02:11.863000
+Created:2022-02-09T19:37:49.811000
+Malware Families
+	********************
+Id:62041818d8659dbc957c063e
+Name:CobaltStrikeStage2_1644435406
+Description:
+Modified:2022-03-11T19:02:11.863000
+Created:2022-02-09T19:38:00.916000
+Malware Families
+	********************
+....................
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************************
+
+IP: 106.55.153.204
+Organization: Tencent cloud computing (Beijing) Co., Ltd.
+Operating System: None
+Last Update: 2022-03-23T05:27:12.719766
+Internet Service Provider (ISP): Shenzhen Tencent Computer Systems Company Limited
+Autonomous System Number (ASN): AS45090
+Country: China
+City: Shenzhen
+Latitude: 22.54554
+Longitude: 114.0683
+Hostnames: []
+Domains: []
+Ports: [81, 50050, 443, 5901, 1025]
+Number of IoC (Indicators of Compromise): 50
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+PORTS DATA FOR IP: 106.55.153.204
+______________________________________________________________
+Data information about port 81 for ip:106.55.153.204
+Port: 81
+Banner: HTTP/1.1 404 Not Found
+Date: Wed, 23 Feb 2022 21:42:47 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Transport: tcp
+Timestamp: 2022-02-23T21:42:49.296819
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -895433077
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 81 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 81 :
+        
+....................
+                    
+Cloud data about port 81 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 81 :
+crawler : 78039f81a0245caa8ab71c98182f0eff0ce52aab
+options : {}
+id : fa596e18-59cd-48f5-ad99-31ed709f3c09
+module : http-simple-new
+ptr : True
+....................
+                    
+Hostnames data about port 81 :
+....................
+                    
+Domains data about port 81 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 443 for ip:106.55.153.204
+Port: 443
+Banner: HTTP/1.1 404 Not Found
+Date: Thu, 17 Mar 2022 17:14:10 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Cobalt Strike Beacon:
+  x86:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: 106.55.153.204,/en_US/all.js
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 00000000000000000000000000000000
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: 34a6ce540d785259c987f4b524c3063e
+    sleeptime: 60000
+    useragent_header: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; BOIE9;SVSE)
+    uses_cookies: 1
+  x64:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: 106.55.153.204,/ca
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 00000000000000000000000000000000
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: 34a6ce540d785259c987f4b524c3063e
+    sleeptime: 60000
+    useragent_header: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+    uses_cookies: 1
+
+Transport: tcp
+Timestamp: 2022-03-17T17:14:12.231729
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -942187726
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 443 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 443 :
+        
+....................
+                    
+Cloud data about port 443 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 443 :
+crawler : 240a12b6c2ac5dba30ed961e4ab8f056540fdaf0
+options : {}
+id : 3998c767-b700-410e-9b38-8bc96226cdf6
+module : https
+ptr : True
+....................
+                    
+Hostnames data about port 443 :
+....................
+                    
+Domains data about port 443 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 1025 for ip:106.55.153.204
+Port: 1025
+Banner: SSH-2.0-OpenSSH_8.2p1 Debian-4
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABgQDN68GhqjYOEaKqSYJILDZeMjv+3wJsju8sl61+pe9TXfj0
+sqRNwCsdIeB1DFQxfE5LASt4m3Aiju0WeHKwq2g1jW70vuNXm0WrkFFUarKrjOARVaBuNr419wch
+LL6SQkfkhZI+U12EE7U1g8Wq06/NeX/vMLA7M8QezZp4P860JDW9fKYN1wXDYJ9V7w8gZcB8WNSp
+bTPHxKMj6aEjX+C1KS/FJsyDs9Thp06XtBE7rC4SX8NwPeb6DuNGrwsJe9h6QtaOjAQfSciknZdC
+BvpfsHP/FtxYpHpfHQNck7x5HQ2ECOiyzoKGlNOkNjnXqo0qDj/tW4vV0PW5yCx76G2gnmCEFyPF
+qQ12sho6J5CErAgLwqP9Thc0rrOqDolZUHYjDYL6Y13KcdFWBw9LrCOF+Y+1y6irv2pdvLiKFYrO
+2mJhLZO6m4Cb5AUGtaKPV1LO5Fc2BRCB6D8rIKtt8wzLU92Ue29R+LwLtRSCpafSW7ip4A1UFtaA
+cppRZTJGsdc=
+Fingerprint: e6:6a:af:43:e0:7b:69:46:f0:35:b8:7b:70:83:94:5a
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+
+Server Host Key Algorithms:
+	rsa-sha2-512
+	rsa-sha2-256
+	ssh-rsa
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+
+
+Transport: tcp
+Timestamp: 2022-03-23T05:27:12.719766
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: 2019410297
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 1025 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 1025 :
+        
+....................
+                    
+Cloud data about port 1025 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 1025 :
+crawler : 42f86247b760542c0192b61c60405edc5db01d55
+id : 675882dd-a7f8-44d0-b42b-c8c7154603cb
+module : auto
+options : {}
+....................
+                    
+Hostnames data about port 1025 :
+....................
+                    
+Domains data about port 1025 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 5901 for ip:106.55.153.204
+Port: 5901
+Banner: RFB 005.000
+
+VNC:
+  Protocol Version: 5.0
+  Security Types:
+    5: RA2
+    13: RealVNC
+    129: Tight Unix Login Authentication
+    133: RealVNC
+    192: RealVNC
+
+Transport: tcp
+Timestamp: 2022-03-21T03:38:16.160684
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -1550144573
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 5901 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 5901 :
+        
+....................
+                    
+Cloud data about port 5901 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 5901 :
+crawler : 621591a63b031d098ca76175401cfed505d8b4a7
+options : {}
+id : 3e0d3c80-15ef-4150-a275-d8015be08281
+module : http-simple-new
+ptr : True
+....................
+                    
+Hostnames data about port 5901 :
+....................
+                    
+Domains data about port 5901 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 50050 for ip:106.55.153.204
+Port: 50050
+Banner:  
+
+Transport: tcp
+Timestamp: 2022-03-17T22:15:42.208304
+Operating System: None
+Autonomous System Number (ASN): AS45090
+HASH: -2007783223
+Internet Service Provider(ISP): Shenzhen Tencent Computer Systems Company Limited
+
+....................
+                    
+Location data about port 50050 :
+city : Shenzhen
+region_code : GD
+area_code : None
+longitude : 114.0683
+latitude : 22.54554
+country_code : CN
+country_name : China
+....................
+                    
+NTP data about port 50050 :
+        
+....................
+                    
+Cloud data about port 50050 :
+region : None
+service : None
+provider : Tencent Cloud
+....................
+                    
+Shodan data about port 50050 :
+crawler : 3ef1c9c3e19275ff8681372c71e65f4535fc5760
+options : {}
+id : 84ea1021-1366-4cc5-a975-b67204704f14
+module : http-simple-new
+ptr : True
+....................
+                    
+Hostnames data about port 50050 :
+....................
+                    
+Domains data about port 50050 :
+....................
+______________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_IoC details_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                    
+ Pulses data for ip:106.55.153.204
+Id:62156c14cbce4e056805b5d0
+Name:Cobalt Strike Servers & C2 | 02/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/14/2022.
+Modified:2022-03-24T00:00:00.271000
+Created:2022-02-22T23:04:52.761000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:623b7a5ef023bbe74e8b5a42
+Name:CobaltStrikeStage2_1648065065
+Description:
+Modified:2022-03-23T19:51:58.451000
+Created:2022-03-23T19:51:58.451000
+Malware Families
+	********************
+Id:623b7a5df9a3bbeb117931bf
+Name:CobaltStrikeC2s_1648065065
+Description:
+Modified:2022-03-23T19:51:57.847000
+Created:2022-03-23T19:51:57.847000
+Malware Families
+	********************
+Id:6213eb8a6cc3ff025ade633b
+Name:CobaltStrikeC2s_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:10.728000
+Malware Families
+	********************
+Id:6213eb8d904fae30fffdaaff
+Name:CobaltStrikeStage2_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:13.511000
+Malware Families
+	********************
+Id:623a276f08cc793dd69f8a1b
+Name:CobaltStrikeStage2_1647978297
+Description:
+Modified:2022-03-22T19:45:51.359000
+Created:2022-03-22T19:45:51.359000
+Malware Families
+	********************
+Id:623a276e93b1cc6fd7e2a06b
+Name:CobaltStrikeC2s_1647978297
+Description:
+Modified:2022-03-22T19:45:50.675000
+Created:2022-03-22T19:45:50.675000
+Malware Families
+	********************
+Id:6212995d344156e04b8baa36
+Name:CobaltStrikeC2s_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.185000
+Malware Families
+	********************
+Id:6212995d833107c122d4971d
+Name:CobaltStrikeStage2_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.942000
+Malware Families
+	********************
+Id:623924872e07de7becef073f
+Name:Cobalt Strike Servers & C2 | 03/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 03/14/2022.
+Modified:2022-03-22T01:21:11.462000
+Created:2022-03-22T01:21:11.462000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:621147e5805cba95331c3196
+Name:CobaltStrikeC2s_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:25.627000
+Malware Families
+	********************
+Id:621147e65968618de107da1e
+Name:CobaltStrikeStage2_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:26.520000
+Malware Families
+	********************
+Id:620ff6cb382bb7fc2ea0f0de
+Name:CobaltStrikeC2s_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:07.457000
+Malware Families
+	********************
+Id:620ff6ccc4f82526647cfa4f
+Name:CobaltStrikeStage2_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:08.171000
+Malware Families
+	********************
+Id:6236f540fd190ebc58be161b
+Name:threatview.io/Downloads/High-Confidence-CobaltStrike-C2
+Description:Here are the key snippets of data generated by the Proactive Hunt C2 system over the next three years. and the first of them to be published on the internet, as well as the following
+Modified:2022-03-20T10:39:32.765000
+Created:2022-03-20T09:34:56.198000
+Malware Families
+	********************
+Id:623632ec2b90dd2e92af0b71
+Name:CobaltStrikeStage2_1647719095
+Description:
+Modified:2022-03-19T19:45:48.559000
+Created:2022-03-19T19:45:48.559000
+Malware Families
+	********************
+Id:623632eb4881e462430833a1
+Name:CobaltStrikeC2s_1647719095
+Description:
+Modified:2022-03-19T19:45:47.806000
+Created:2022-03-19T19:45:47.806000
+Malware Families
+	********************
+Id:620ea4efa5c4a06885f9c027
+Name:CobaltStrikeC2s_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:35.715000
+Malware Families
+	********************
+Id:620ea4f26ba371ff7f64ecb7
+Name:CobaltStrikeStage2_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:37.092000
+Malware Families
+	********************
+Id:6234e1b5b5460daf49a55d0f
+Name:CobaltStrikeStage2_1647632767
+Description:
+Modified:2022-03-18T19:47:01.380000
+Created:2022-03-18T19:47:01.380000
+Malware Families
+	********************
+Id:6234e1b47b9f6731dc948b63
+Name:CobaltStrikeC2s_1647632767
+Description:
+Modified:2022-03-18T19:47:00.414000
+Created:2022-03-18T19:47:00.414000
+Malware Families
+	********************
+Id:620d5435bb828bd4f51875c2
+Name:CobaltStrikeC2s_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:53.631000
+Malware Families
+	********************
+Id:620d5436dc6df248eb1ffc01
+Name:CobaltStrikeStage2_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:54.286000
+Malware Families
+	********************
+Id:6233901bcfb12fa77c03f788
+Name:CobaltStrikeStage2_1647546342
+Description:
+Modified:2022-03-17T19:46:35.444000
+Created:2022-03-17T19:46:35.444000
+Malware Families
+	********************
+Id:6233901a3ceeeeb5a825f55f
+Name:CobaltStrikeC2s_1647546342
+Description:
+Modified:2022-03-17T19:46:34.768000
+Created:2022-03-17T19:46:34.768000
+Malware Families
+	********************
+Id:620c01aa358ed5adbdeafea1
+Name:CobaltStrikeC2s_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:26.696000
+Malware Families
+	********************
+Id:620c01ab311416441dd9ffbd
+Name:CobaltStrikeStage2_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:27.217000
+Malware Families
+	********************
+Id:62323eaca065f32eab89e690
+Name:CobaltStrikeStage2_1647459957
+Description:
+Modified:2022-03-16T19:46:52.107000
+Created:2022-03-16T19:46:52.107000
+Malware Families
+	********************
+Id:62323eaafb49693e7ffee08d
+Name:CobaltStrikeC2s_1647459957
+Description:
+Modified:2022-03-16T19:46:50.605000
+Created:2022-03-16T19:46:50.605000
+Malware Families
+	********************
+Id:620aaf918f9ff1dc6f5ac997
+Name:CobaltStrikeC2s_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:53.500000
+Malware Families
+	********************
+Id:620aaf92c873ef75b2fb240c
+Name:CobaltStrikeStage2_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:54.217000
+Malware Families
+	********************
+Id:620aae3e69768a8fb97170f0
+Name:Cobalt Strike Servers & C2 | 02/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/07/2022.
+Modified:2022-03-16T00:02:55.894000
+Created:2022-02-14T19:32:14.279000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6230eca07b8f57b1a478e8ec
+Name:CobaltStrikeStage2_1647373419
+Description:
+Modified:2022-03-15T19:44:32.633000
+Created:2022-03-15T19:44:32.633000
+Malware Families
+	********************
+Id:6230eca09dbee9f6db990d53
+Name:CobaltStrikeC2s_1647373419
+Description:
+Modified:2022-03-15T19:44:32.127000
+Created:2022-03-15T19:44:32.127000
+Malware Families
+	********************
+Id:62095e68a8b0d10d09df6e67
+Name:CobaltStrikeC2s_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:20.566000
+Malware Families
+	********************
+Id:62095e69a2392434a061e17d
+Name:CobaltStrikeStage2_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:21.325000
+Malware Families
+	********************
+Id:622f9be5bf0453d863eec4a9
+Name:CobaltStrikeStage2_1647287216
+Description:
+Modified:2022-03-14T19:47:49.581000
+Created:2022-03-14T19:47:49.581000
+Malware Families
+	********************
+Id:622f9be4d75671f03b44360c
+Name:CobaltStrikeC2s_1647287216
+Description:
+Modified:2022-03-14T19:47:48.902000
+Created:2022-03-14T19:47:48.902000
+Malware Families
+	********************
+Id:62080cf6c06a4ac3ba0d8880
+Name:CobaltStrikeC2s_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:34.256000
+Malware Families
+	********************
+Id:62080cf7cb85fb1035952045
+Name:CobaltStrikeStage2_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:35.027000
+Malware Families
+	********************
+Id:622e4a06c8f88e8c3d0a8df0
+Name:CobaltStrikeStage2_1647200720
+Description:
+Modified:2022-03-13T19:46:14.386000
+Created:2022-03-13T19:46:14.386000
+Malware Families
+	********************
+Id:622e4a055c8c342be1cc345e
+Name:CobaltStrikeC2s_1647200720
+Description:
+Modified:2022-03-13T19:46:13.651000
+Created:2022-03-13T19:46:13.651000
+Malware Families
+	********************
+Id:6206ba9d07e5270a06cb9d25
+Name:CobaltStrikeC2s_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:57.804000
+Malware Families
+	********************
+Id:6206ba9fdb76ec59a467f11b
+Name:CobaltStrikeStage2_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:59.145000
+Malware Families
+	********************
+Id:622cf800f78185596084b645
+Name:CobaltStrikeStage2_1647114187
+Description:
+Modified:2022-03-12T19:44:00.812000
+Created:2022-03-12T19:44:00.812000
+Malware Families
+	********************
+Id:622cf800e5c4d7f748ff6d28
+Name:CobaltStrikeC2s_1647114187
+Description:
+Modified:2022-03-12T19:44:00.044000
+Created:2022-03-12T19:44:00.044000
+Malware Families
+	********************
+Id:6205695fa9faafc26e4518f5
+Name:CobaltStrikeC2s_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:03.552000
+Malware Families
+	********************
+Id:6205696003841882d9fb5947
+Name:CobaltStrikeStage2_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:04.091000
+Malware Families
+	********************
+Id:622ba6ad61b7c3804210921e
+Name:CobaltStrikeStage2_1647027831
+Description:
+Modified:2022-03-11T19:44:45.057000
+Created:2022-03-11T19:44:45.057000
+Malware Families
+	********************
+Id:622ba6ac70aec19998ebbe78
+Name:CobaltStrikeC2s_1647027831
+Description:
+Modified:2022-03-11T19:44:44.402000
+Created:2022-03-11T19:44:44.402000
+Malware Families
+	********************
+....................
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************************
+
+IP: 104.243.41.123
+Organization: ReliableSite.Net LLC
+Operating System: Ubuntu
+Last Update: 2022-03-21T09:46:12.692102
+Internet Service Provider (ISP): ReliableSite.Net LLC
+Autonomous System Number (ASN): AS23470
+Country: United States
+City: New York City
+Latitude: 40.71427
+Longitude: -74.00597
+Hostnames: []
+Domains: []
+Ports: [80, 443, 22]
+Number of IoC (Indicators of Compromise): 50
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+PORTS DATA FOR IP: 104.243.41.123
+______________________________________________________________
+Data information about port 22 for ip:104.243.41.123
+Port: 22
+Banner: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3
+Key type: ssh-rsa
+Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCY8rKRDZw0a1AgHRXR8XMAtGrcp4McfzfEWF2j4XxkHYGO
+oaX27jQiK0L5GJyw8ilz73i9jdxBr/5upDmk490QiDSMDFCfZN7Pvzum+aQI2Wlcp9YSLcXDEcs5
+6XYC5YuF9FqWFh8iGbAUMOK2OmlVr04rvjfkjBLXr1gThvzUlRBUnYqMUzS/JW4r7i1G+Y+ayOBH
+7ThsfBnH8DbzQKI1qm8QvfSPQKRqMJBoxi8LSgdgAvtlJ0hzO7Ka2r15hMUh89Y9nzUNSrhdDQLe
+gdJHGU4wkObTbsEZaXA3iAXBk/lw+gReuNs1hJxrs4EZ1j+u5Ng+jeoyG/XdTN5GF0hn
+Fingerprint: 32:9a:7d:74:17:e3:7b:77:da:7a:9e:dd:f4:d8:f3:a7
+
+Kex Algorithms:
+	curve25519-sha256
+	curve25519-sha256@libssh.org
+	ecdh-sha2-nistp256
+	ecdh-sha2-nistp384
+	ecdh-sha2-nistp521
+	diffie-hellman-group-exchange-sha256
+	diffie-hellman-group16-sha512
+	diffie-hellman-group18-sha512
+	diffie-hellman-group14-sha256
+	diffie-hellman-group14-sha1
+
+Server Host Key Algorithms:
+	ssh-rsa
+	rsa-sha2-512
+	rsa-sha2-256
+	ecdsa-sha2-nistp256
+	ssh-ed25519
+
+Encryption Algorithms:
+	chacha20-poly1305@openssh.com
+	aes128-ctr
+	aes192-ctr
+	aes256-ctr
+	aes128-gcm@openssh.com
+	aes256-gcm@openssh.com
+
+MAC Algorithms:
+	umac-64-etm@openssh.com
+	umac-128-etm@openssh.com
+	hmac-sha2-256-etm@openssh.com
+	hmac-sha2-512-etm@openssh.com
+	hmac-sha1-etm@openssh.com
+	umac-64@openssh.com
+	umac-128@openssh.com
+	hmac-sha2-256
+	hmac-sha2-512
+	hmac-sha1
+
+Compression Algorithms:
+	none
+	zlib@openssh.com
+
+
+Transport: tcp
+Timestamp: 2022-03-21T09:46:12.692102
+Operating System: Ubuntu
+Autonomous System Number (ASN): AS23470
+HASH: 58092905
+Internet Service Provider(ISP): ReliableSite.Net LLC
+
+....................
+                    
+Location data about port 22 :
+city : New York City
+region_code : NY
+area_code : None
+longitude : -74.00597
+latitude : 40.71427
+country_code : US
+country_name : United States
+....................
+                    
+NTP data about port 22 :
+        
+....................
+                    
+Cloud data about port 22 :
+        
+....................
+                    
+Shodan data about port 22 :
+crawler : bf213bc419cc8491376c12af31e32623c1b6f467
+options : {}
+id : 9374cb7c-728c-4fc1-8e6e-6e5903dae70c
+module : ssh
+ptr : True
+....................
+                    
+Hostnames data about port 22 :
+....................
+                    
+Domains data about port 22 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 80 for ip:104.243.41.123
+Port: 80
+Banner: HTTP/1.1 404 Not Found
+Date: Tue, 15 Mar 2022 17:48:47 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Transport: tcp
+Timestamp: 2022-03-15T17:48:47.839874
+Operating System: None
+Autonomous System Number (ASN): AS23470
+HASH: -1330991348
+Internet Service Provider(ISP): ReliableSite.Net LLC
+
+....................
+                    
+Location data about port 80 :
+city : New York City
+region_code : NY
+area_code : None
+longitude : -74.00597
+latitude : 40.71427
+country_code : US
+country_name : United States
+....................
+                    
+NTP data about port 80 :
+        
+....................
+                    
+Cloud data about port 80 :
+        
+....................
+                    
+Shodan data about port 80 :
+crawler : e69d8d673faaa42bde0e9c7ce075d3c7146e67d0
+options : {}
+id : 667627d6-07fc-413c-b09c-c3c2761c5fef
+module : http
+ptr : True
+....................
+                    
+Hostnames data about port 80 :
+....................
+                    
+Domains data about port 80 :
+....................
+______________________________________________________________
+______________________________________________________________
+Data information about port 443 for ip:104.243.41.123
+Port: 443
+Banner: HTTP/1.1 404 Not Found
+Date: Wed, 16 Mar 2022 03:54:39 GMT
+Content-Type: text/plain
+Content-Length: 0
+
+
+Cobalt Strike Beacon:
+  x86:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: cuphq.com,/visit.js,104.243.41.123,/fwlink
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 187ab8f98098de95714613f8544c9613
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: f1b2bd4fc373ab7adddac74e14a0d64a
+    sleeptime: 60000
+    useragent_header: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; Avant Browser)
+    uses_cookies: 1
+  x64:
+    beacon_type: HTTPS
+    dns-beacon.maxdns: 255
+    http-get.client:
+      Cookie
+    http-get.uri: cuphq.com,/pixel.gif,104.243.41.123,/cm
+    http-get.verb: GET
+    http-post.client:
+      Content-Type: application/octet-stream
+      id
+    http-post.uri: /submit.php
+    http-post.verb: POST
+    maxgetsize: 1048576
+    port: 443
+    post-ex.spawnto_x64: %windir%\sysnative\rundll32.exe
+    post-ex.spawnto_x86: %windir%\syswow64\rundll32.exe
+    process-inject.execute:
+      CreateThread
+      SetThreadContext
+      CreateRemoteThread
+      RtlCreateUserThread
+    process-inject.startrwx: 64
+    process-inject.stub: 187ab8f98098de95714613f8544c9613
+    process-inject.userwx: 64
+    proxy.behavior: 2 (Use IE settings)
+    server.publickey_md5: f1b2bd4fc373ab7adddac74e14a0d64a
+    sleeptime: 60000
+    useragent_header: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
+    uses_cookies: 1
+
+Transport: tcp
+Timestamp: 2022-03-16T03:54:39.534068
+Operating System: None
+Autonomous System Number (ASN): AS23470
+HASH: 2101595260
+Internet Service Provider(ISP): ReliableSite.Net LLC
+
+....................
+                    
+Location data about port 443 :
+city : New York City
+region_code : NY
+area_code : None
+longitude : -74.00597
+latitude : 40.71427
+country_code : US
+country_name : United States
+....................
+                    
+NTP data about port 443 :
+        
+....................
+                    
+Cloud data about port 443 :
+        
+....................
+                    
+Shodan data about port 443 :
+crawler : 3f1279c6853212fb475ce5da28a7fdac617a5bd4
+options : {}
+id : a9a6cd95-141d-4305-a3bc-71fd27c1a06c
+module : https
+ptr : True
+....................
+                    
+Hostnames data about port 443 :
+....................
+                    
+Domains data about port 443 :
+....................
+______________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_IoC details_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+                    
+ Pulses data for ip:104.243.41.123
+Id:5f928dbcad67e6227e78938c
+Name:Feed from AbuseIP
+Description:botnet C&Cs downloaded from AbuseIP.ch by Enrico Pasqualotto
+Modified:2022-03-24T02:01:09.083000
+Created:2020-10-23T08:01:00.005000
+Malware Families
+	********************
+Id:62156c14cbce4e056805b5d0
+Name:Cobalt Strike Servers & C2 | 02/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/14/2022.
+Modified:2022-03-24T00:00:00.271000
+Created:2022-02-22T23:04:52.761000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:623b7a5ef023bbe74e8b5a42
+Name:CobaltStrikeStage2_1648065065
+Description:
+Modified:2022-03-23T19:51:58.451000
+Created:2022-03-23T19:51:58.451000
+Malware Families
+	********************
+Id:6213eb8d904fae30fffdaaff
+Name:CobaltStrikeStage2_1645472597
+Description:
+Modified:2022-03-23T19:02:10.870000
+Created:2022-02-21T19:44:13.511000
+Malware Families
+	********************
+Id:623a276f08cc793dd69f8a1b
+Name:CobaltStrikeStage2_1647978297
+Description:
+Modified:2022-03-22T19:45:51.359000
+Created:2022-03-22T19:45:51.359000
+Malware Families
+	********************
+Id:6212995d833107c122d4971d
+Name:CobaltStrikeStage2_1645386024
+Description:
+Modified:2022-03-22T19:00:25.093000
+Created:2022-02-20T19:41:17.942000
+Malware Families
+	********************
+Id:623924872e07de7becef073f
+Name:Cobalt Strike Servers & C2 | 03/14/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 03/14/2022.
+Modified:2022-03-22T01:21:11.462000
+Created:2022-03-22T01:21:11.462000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6238d676e659b080b96130d5
+Name:CobaltStrikeStage2_1647892033
+Description:
+Modified:2022-03-21T19:48:06.564000
+Created:2022-03-21T19:48:06.564000
+Malware Families
+	********************
+Id:621147e65968618de107da1e
+Name:CobaltStrikeStage2_1645299632
+Description:
+Modified:2022-03-21T19:03:14.090000
+Created:2022-02-19T19:41:26.520000
+Malware Families
+	********************
+Id:620ff6ccc4f82526647cfa4f
+Name:CobaltStrikeStage2_1645213334
+Description:
+Modified:2022-03-20T19:01:29.830000
+Created:2022-02-18T19:43:08.171000
+Malware Families
+	********************
+Id:6236f540fd190ebc58be161b
+Name:threatview.io/Downloads/High-Confidence-CobaltStrike-C2
+Description:Here are the key snippets of data generated by the Proactive Hunt C2 system over the next three years. and the first of them to be published on the internet, as well as the following
+Modified:2022-03-20T10:39:32.765000
+Created:2022-03-20T09:34:56.198000
+Malware Families
+	********************
+Id:623632ec2b90dd2e92af0b71
+Name:CobaltStrikeStage2_1647719095
+Description:
+Modified:2022-03-19T19:45:48.559000
+Created:2022-03-19T19:45:48.559000
+Malware Families
+	********************
+Id:620ea4f26ba371ff7f64ecb7
+Name:CobaltStrikeStage2_1645126841
+Description:
+Modified:2022-03-19T19:00:45.806000
+Created:2022-02-17T19:41:37.092000
+Malware Families
+	********************
+Id:6234e1b5b5460daf49a55d0f
+Name:CobaltStrikeStage2_1647632767
+Description:
+Modified:2022-03-18T19:47:01.380000
+Created:2022-03-18T19:47:01.380000
+Malware Families
+	********************
+Id:620d5436dc6df248eb1ffc01
+Name:CobaltStrikeStage2_1645040640
+Description:
+Modified:2022-03-18T19:02:09.383000
+Created:2022-02-16T19:44:54.286000
+Malware Families
+	********************
+Id:6233901bcfb12fa77c03f788
+Name:CobaltStrikeStage2_1647546342
+Description:
+Modified:2022-03-17T19:46:35.444000
+Created:2022-03-17T19:46:35.444000
+Malware Families
+	********************
+Id:620c01ab311416441dd9ffbd
+Name:CobaltStrikeStage2_1644953973
+Description:
+Modified:2022-03-17T19:03:20.542000
+Created:2022-02-15T19:40:27.217000
+Malware Families
+	********************
+Id:62323eaca065f32eab89e690
+Name:CobaltStrikeStage2_1647459957
+Description:
+Modified:2022-03-16T19:46:52.107000
+Created:2022-03-16T19:46:52.107000
+Malware Families
+	********************
+Id:620aaf92c873ef75b2fb240c
+Name:CobaltStrikeStage2_1644867420
+Description:
+Modified:2022-03-16T19:02:23.080000
+Created:2022-02-14T19:37:54.217000
+Malware Families
+	********************
+Id:620aae3e69768a8fb97170f0
+Name:Cobalt Strike Servers & C2 | 02/07/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/07/2022.
+Modified:2022-03-16T00:02:55.894000
+Created:2022-02-14T19:32:14.279000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:6230eca07b8f57b1a478e8ec
+Name:CobaltStrikeStage2_1647373419
+Description:
+Modified:2022-03-15T19:44:32.633000
+Created:2022-03-15T19:44:32.633000
+Malware Families
+	********************
+Id:62095e69a2392434a061e17d
+Name:CobaltStrikeStage2_1644781107
+Description:
+Modified:2022-03-15T19:01:03.364000
+Created:2022-02-13T19:39:21.325000
+Malware Families
+	********************
+Id:622f9be5bf0453d863eec4a9
+Name:CobaltStrikeStage2_1647287216
+Description:
+Modified:2022-03-14T19:47:49.581000
+Created:2022-03-14T19:47:49.581000
+Malware Families
+	********************
+Id:62080cf7cb85fb1035952045
+Name:CobaltStrikeStage2_1644694721
+Description:
+Modified:2022-03-14T19:04:45.332000
+Created:2022-02-12T19:39:35.027000
+Malware Families
+	********************
+Id:622e4a06c8f88e8c3d0a8df0
+Name:CobaltStrikeStage2_1647200720
+Description:
+Modified:2022-03-13T19:46:14.386000
+Created:2022-03-13T19:46:14.386000
+Malware Families
+	********************
+Id:6206ba9fdb76ec59a467f11b
+Name:CobaltStrikeStage2_1644608104
+Description:
+Modified:2022-03-13T19:05:28.205000
+Created:2022-02-11T19:35:59.145000
+Malware Families
+	********************
+Id:622cf800f78185596084b645
+Name:CobaltStrikeStage2_1647114187
+Description:
+Modified:2022-03-12T19:44:00.812000
+Created:2022-03-12T19:44:00.812000
+Malware Families
+	********************
+Id:6205696003841882d9fb5947
+Name:CobaltStrikeStage2_1644521770
+Description:
+Modified:2022-03-12T19:03:11.817000
+Created:2022-02-10T19:37:04.091000
+Malware Families
+	********************
+Id:622ba6ad61b7c3804210921e
+Name:CobaltStrikeStage2_1647027831
+Description:
+Modified:2022-03-11T19:44:45.057000
+Created:2022-03-11T19:44:45.057000
+Malware Families
+	********************
+Id:62041818d8659dbc957c063e
+Name:CobaltStrikeStage2_1644435406
+Description:
+Modified:2022-03-11T19:02:11.863000
+Created:2022-02-09T19:38:00.916000
+Malware Families
+	********************
+Id:622a54ec77546f3e11c14d78
+Name:CobaltStrikeStage2_1646941367
+Description:
+Modified:2022-03-10T19:43:40.468000
+Created:2022-03-10T19:43:40.468000
+Malware Families
+	********************
+Id:6202c5f285fce34806c2dfa9
+Name:CobaltStrikeStage2_1644348860
+Description:
+Modified:2022-03-10T19:04:00.856000
+Created:2022-02-08T19:35:14.676000
+Malware Families
+	********************
+Id:6202c399df947c80952c0cf0
+Name:Cobalt Strike Servers & C2 | 01/31/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 01/31/2022.
+Modified:2022-03-10T00:05:18.309000
+Created:2022-02-08T19:25:13.653000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:622903f6415f9450f9375181
+Name:CobaltStrikeStage2_1646855104
+Description:
+Modified:2022-03-09T19:45:58.169000
+Created:2022-03-09T19:45:58.169000
+Malware Families
+	********************
+Id:620174f0d1d82ab37adb2b28
+Name:CobaltStrikeStage2_1644262586
+Description:
+Modified:2022-03-09T19:00:48.460000
+Created:2022-02-07T19:37:20.758000
+Malware Families
+	********************
+Id:6227b1ef55be76cd0cbda5e7
+Name:CobaltStrikeStage2_1646768569
+Description:
+Modified:2022-03-08T19:43:43.115000
+Created:2022-03-08T19:43:43.115000
+Malware Families
+	********************
+Id:62002381bd74fe783c45645e
+Name:CobaltStrikeStage2_1644176203
+Description:
+Modified:2022-03-08T19:01:04.455000
+Created:2022-02-06T19:37:37.418000
+Malware Families
+	********************
+Id:62266020aca1d114031c0295
+Name:CobaltStrikeStage2_1646682047
+Description:
+Modified:2022-03-07T19:42:24.838000
+Created:2022-03-07T19:42:24.838000
+Malware Families
+	********************
+Id:61fed1a44c3c1c51b38686d3
+Name:CobaltStrikeStage2_1644089711
+Description:
+Modified:2022-03-07T19:04:32.526000
+Created:2022-02-05T19:36:04.800000
+Malware Families
+	********************
+Id:6225f3fc5d21e2f094d83076
+Name:Cobalt Strike Servers & C2 | 02/28/2022
+Description:IronNet Threat Analysts scan the web searching for hosts that are serving Cobalt Strike beacons. These indicators are hosting Cobalt Strike payloads and are the C2 according to their configs. These servers were scanned the week of 02/28/2022.
+Modified:2022-03-07T12:01:00.407000
+Created:2022-03-07T12:01:00.407000
+Malware Families
+	********************
+	Id:Cobalt Strike - S0154
+	Display name:Cobalt Strike - S0154
+	Target:None
+	********************
+Id:62251028edce76e3d91c8e6e
+Name:CobaltStrikeStage2_1646596082
+Description:
+Modified:2022-03-06T19:48:56.540000
+Created:2022-03-06T19:48:56.540000
+Malware Families
+	********************
+Id:61fd80273e04fa3654039730
+Name:CobaltStrikeStage2_1644003314
+Description:
+Modified:2022-03-06T19:01:14.744000
+Created:2022-02-04T19:36:07.709000
+Malware Families
+	********************
+Id:61fc2ebde9726fa0d921e4e5
+Name:CobaltStrikeStage2_1643916935
+Description:
+Modified:2022-03-05T19:01:42.278000
+Created:2022-02-03T19:36:29.848000
+Malware Families
+	********************
+Id:62226c7df32fa978589b637a
+Name:CobaltStrikeStage2_1646423112
+Description:
+Modified:2022-03-04T19:46:05.866000
+Created:2022-03-04T19:46:05.866000
+Malware Families
+	********************
+Id:61fadd93f065e0147c45fb0f
+Name:CobaltStrikeStage2_1643830621
+Description:
+Modified:2022-03-04T19:03:35.512000
+Created:2022-02-02T19:37:55.448000
+Malware Families
+	********************
+Id:62211a8b82d54ccd2d93e240
+Name:CobaltStrikeStage2_1646336597
+Description:
+Modified:2022-03-03T19:44:11.140000
+Created:2022-03-03T19:44:11.140000
+Malware Families
+	********************
+Id:61f98cb5a50c966602f618c0
+Name:CobaltStrikeStage2_1643744383
+Description:
+Modified:2022-03-03T19:01:50.468000
+Created:2022-02-01T19:40:37.358000
+Malware Families
+	********************
+Id:6220a96f7c3dabb66a118a1e
+Name:Russian related IOCs
+Description:
+Modified:2022-03-03T11:41:35.379000
+Created:2022-03-03T11:41:35.379000
+Malware Families
+	********************
+Id:621fc7e3b50df78105342197
+Name:CobaltStrikeStage2_1646249902
+Description:
+Modified:2022-03-02T19:39:15.795000
+Created:2022-03-02T19:39:15.795000
+Malware Families
+	********************
+Id:61f839cadc83a9e4998431a9
+Name:CobaltStrikeStage2_1643657620
+Description:
+Modified:2022-03-02T19:04:49.535000
+Created:2022-01-31T19:34:34.590000
+Malware Families
+	********************
+....................
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
